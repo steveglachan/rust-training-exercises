@@ -31,7 +31,7 @@ fn main() {
     // Request user input:
     let user_input: String = get_user_input();
     if user_input_is_valid(user_input.clone()) {
-        let number: u32 = parse_user_input(user_input.clone());
+        let number: u32 = parse_user_input(user_input);
         let factorial_answer: u32 = factorial(number);
         println!(
 "----------------------------------------------
